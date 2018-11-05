@@ -1,0 +1,17 @@
+{
+  "name": "jstg",
+  "version": "1.0.0",
+  "description": "An engine to build HTML5 shoot 'em up games",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playdatesnowcrash/jstg.git"
+  }
+}
