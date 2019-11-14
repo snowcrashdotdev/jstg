@@ -5,6 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:js": "nodemon --watch src -x \"npm run build\"",
     "build": "webpack --mode=production"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/snowcrashdotdev/jstg#readme",
   "devDependencies": {
+    "nodemon": "^1.19.4",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
