@@ -1,17 +1,27 @@
 {
   "name": "jstg",
   "version": "1.0.0",
-  "description": "An engine to build HTML5 shoot 'em up games",
-  "main": "main.js",
-  "dependencies": {},
-  "devDependencies": {
-    "standard": "^12.0.1"
-  },
+  "description": "",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "standard"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:js": "nodemon --watch src -x \"npm run build\"",
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/playdatesnowcrash/jstg.git"
+    "url": "git+https://github.com/snowcrashdotdev/jstg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowcrashdotdev/jstg/issues"
+  },
+  "homepage": "https://github.com/snowcrashdotdev/jstg#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
